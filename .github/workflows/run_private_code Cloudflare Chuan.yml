@@ -1,10 +1,7 @@
 name: run-private-code
 
 on:
-  schedule:
-    - cron: '0 22 * * *'   # 11:00 VN
-    - cron: '0 4 * * *'   # 13:00 VN
-    - cron: '0 10 * * *'   # 16:00 VN
+  
     
   workflow_dispatch: {}
 
@@ -24,9 +21,9 @@ jobs:
       YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
 
       # chọn thumb tiêu đề bắt đầu
-      SEQ_BASE_RUN: "10"
-      TITLE_START: "2"
-      THUMB_START: "2"
+      SEQ_BASE_RUN: "1"
+      TITLE_START: "1"
+      THUMB_START: "1"
 
       # công tắc chọn poll hoặc cloudflare
       IMG_PROVIDER: cloudflare
