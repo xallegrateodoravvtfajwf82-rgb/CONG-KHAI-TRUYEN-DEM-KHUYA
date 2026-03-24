@@ -24,7 +24,7 @@ jobs:
       YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
 
       # chọn thumb tiêu đề bắt đầu
-      SEQ_BASE_RUN: "19"
+      SEQ_BASE_RUN: "20"
       TITLE_START: "17"
       THUMB_START: "17"
 
